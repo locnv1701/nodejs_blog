@@ -1,0 +1,13 @@
+@import 'variable';
+
+
+.test {
+    font-size: 10rem;
+    background-color: antiquewhite;
+    color: red;
+    stroke-dasharray: none;
+}
+
+h1 {
+    color: $red_color;
+}
