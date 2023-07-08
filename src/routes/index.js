@@ -10,6 +10,10 @@ function route(app) {
     app.use('/courses', coursesRouter)
     app.use('/', siteRouter)
 
+    app.get('/hello', function(req, res) {
+        res.send('Hello world')
+    })
+
 }
 
 module.exports = route;
